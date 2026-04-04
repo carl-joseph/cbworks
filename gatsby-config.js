@@ -4,9 +4,9 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Starter Theme`,
-    description: `Starter Theme 2024`,
-    author: `@carljoseph`,
+    title: `CB Works`,
+    description: `CB Works is a web practice, led by Carl Beaverson. We Partner with leading designers and agencies to produce outstanding websites.`,
+    author: `@cb.works`,
     siteUrl: `https://c-b.works`,
   },
   plugins: [

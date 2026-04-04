@@ -2,13 +2,28 @@
 ## Layout Styling
 --------------------------------------------------------------*/
 
+@font-face {
+  font-family: 'Suisse Int\'l';
+  src: url('../fonts/SuisseIntl-Regular.woff2') format('woff2'),
+      url('../fonts/SuisseIntl-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.sm-copy {
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
 body {
-  color: #000;
-  font-size: 14px;
-  font-family: sans-serif;
+  color: #666;
+  font-size: 12px;
+  font-family: 'Suisse Int\'l';
   -webkit-font-smoothing: antialiased;
-  font-smooth: always;
   text-rendering: optimizeLegibility;
+  font-smooth: always;
   ::selection {
     background: #d2fd78;
     color: #000;

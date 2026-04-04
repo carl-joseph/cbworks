@@ -14,6 +14,10 @@ a {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -22,12 +26,20 @@ a {
   overflow: hidden;
 }
 
+.op-50 {
+  opacity: 0.5;
+}
+
 /* ------------ Grid Styles ------------ */
 
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+}
+
+.grid {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 /* ------------ Flex Styles ------------ */
