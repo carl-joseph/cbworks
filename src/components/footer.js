@@ -14,15 +14,15 @@ export default function Footer() {
 const Copyright = () => {
   return (
     <div className='op-50'>
-      ©{new Date().getFullYear()} CB WORKS, ALL RIGHTs RESERVED
+      ©{new Date().getFullYear()} CB WORKS, ALL RIGHTS RESERVED
     </div>
   )
 }
 
 const Socials = () => {
   return (
-    <div>
-      Socials
+    <div className='op-50'>
+      <a target='_blank' rel='norefferer' href='https://x.com/CarlBeaverson'>X</a>, <a target='_blank' rel='norefferer' href='https://instagram.com/cb.works'>Instagram</a>, <a target='_blank' rel='norefferer' href='https://linkedin.com/cb.works'>LinkedIn</a> 
     </div>
   )
 }
