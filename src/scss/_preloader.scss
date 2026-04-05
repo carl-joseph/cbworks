@@ -1,0 +1,22 @@
+/*--------------------------------------------------------------
+## Preloader Styling
+--------------------------------------------------------------*/
+
+.preloader {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: #fff;
+	z-index: 12;
+	left: 0px;
+	top: 0px;
+}
+
+.logo-wrapper {
+	top: calc(50% - 30px);
+	position: absolute;
+}
+
+.preloader .title {
+	opacity: 0;
+}
