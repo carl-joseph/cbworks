@@ -30,6 +30,10 @@ a {
   opacity: 0.5;
 }
 
+.br-08 {
+  filter:brightness(0.8);
+}
+
 /* ------------ Grid Styles ------------ */
 
 .grid {
@@ -70,6 +74,10 @@ a {
 
 /* ------------ Gap Styles ------------ */
 
+.gap-10 {
+  gap: 10px;
+}
+
 .gap-20 {
   gap: 20px;
 }
@@ -104,6 +112,14 @@ a {
   margin-bottom: auto;
 }
 
+.mb40 {
+  margin-bottom: 40px;
+}
+
+.mth {
+  margin-top: 58px;
+}
+
 /* ------------ Padding Styles ------------ */
 
 .p0 {
@@ -116,6 +132,10 @@ a {
 
 .p40 {
   padding: 40px;
+}
+
+.pb40 {
+  padding-bottom: 40px;
 }
 
 /* ------------ Position Styles ------------ */
@@ -138,7 +158,7 @@ a {
 /* ------------ BG Styles ------------ */
 
 .bg-grey {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #F4F3F1;
 }
 
 /* ------------ Image Styles ------------ */
@@ -161,6 +181,11 @@ div.bg-image,
 
 /* ------------ Ratio Styles ------------ */
 
+.ratio-1-1 {
+  width: 100%;
+  aspect-ratio: 1;
+}
+
 .ratio-1-2 {
   width: 100%;
   aspect-ratio: 1 / 2;
@@ -169,6 +194,10 @@ div.bg-image,
 .ratio-2-1 {
   width: 100%;
   aspect-ratio: 2 / 1;
+}
+
+.ratio-8-5 {
+  aspect-ratio: 8 / 5;
 }
 
 /* ------------ Width Styles ------------ */
@@ -192,6 +221,14 @@ div.bg-image,
 }
 
 /* ------------ Max Styles ------------ */
+
+.max-550 {
+  max-width: 550px;
+}
+
+.max-600 {
+  max-width: 600px;
+}
 
 .max-1600 {
   max-width: 1600px;

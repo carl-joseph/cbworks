@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export default function Header({ siteTitle }) {
   return (
-    <header>
+    <header className='masthead'>
       <div className='flex space-between p20 sm-copy'>
         <Link className='link' to='/'>
           <div className='logo--main'/>
