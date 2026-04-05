@@ -7,7 +7,7 @@ import ProjectFeed from "../components/projectFeed"
 export default function IndexPage({data}) {
   var projects = data.projects
   return (
-    <Layout preloader>
+    <Layout>
       <ProjectFeed projects={projects.edges} />
     </Layout>
   )
