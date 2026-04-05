@@ -62,12 +62,14 @@ export default function ProjectFeed({ projects }) {
     const animate = () => {
       currentY.current += (targetY.current - currentY.current) * 0.08
 
-      if (currentY.current >= setHeight * 2) {
+      const wrapBuffer = window.innerHeight
+
+      if (currentY.current >= setHeight * 2 - wrapBuffer) {
         currentY.current -= setHeight
         targetY.current -= setHeight
       }
 
-      if (currentY.current <= 0) {
+      if (currentY.current <= wrapBuffer) {
         currentY.current += setHeight
         targetY.current += setHeight
       }
@@ -93,7 +95,6 @@ export default function ProjectFeed({ projects }) {
 
       rafRef.current = requestAnimationFrame(animate)
     }
-
 
     window.addEventListener("wheel", handleWheel, { passive: true })
     window.addEventListener("touchstart", handleTouchStart, { passive: true })
