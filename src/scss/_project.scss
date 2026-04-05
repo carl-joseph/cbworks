@@ -7,3 +7,19 @@
 	max-width: 75%;
 	margin: auto;
 }
+
+.project--feed-item-inner {
+  will-change: transform;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.project--feed-viewport {
+  height: 100%;
+  overflow: hidden;
+}
+
+.project--feed-track {
+	max-width: 500px;
+}
+

@@ -17,7 +17,7 @@ export const Head = () => <Seo title='' />
 
 export const query = graphql`
     query PageQuery {
-      projects:allDatoCmsProject {
+      projects:allDatoCmsProject(sort: {position: ASC }) {
         edges {
           node {
             title
