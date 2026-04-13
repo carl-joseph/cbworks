@@ -9,6 +9,9 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
+	&.alt {
+		background-image: url('../images/logo-100.svg');	
+	}
 }
 
 .masthead {

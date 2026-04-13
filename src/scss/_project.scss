@@ -6,6 +6,9 @@
 	width: 100%;
 	max-width: 75%;
 	margin: auto;
+	&.portrait {
+		max-width: 27%;
+	}
 }
 
 .project--feed-item-inner {
@@ -20,6 +23,6 @@
 }
 
 .project--feed-track {
-	max-width: 500px;
+	max-width: 38%;
 }
 
