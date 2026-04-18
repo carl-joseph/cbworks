@@ -30,8 +30,17 @@ export default function ProjectFeed({ projects }) {
         total += items[i].offsetHeight
       }
       setSetHeight(total)
-      currentY.current = total
-      targetY.current = total
+      const startIndex = Math.floor(items.length / 3)
+      const item = items[startIndex]
+
+      const itemOffsetTop = item.offsetTop
+      const itemHeight = item.offsetHeight
+      const viewportCenter = window.innerHeight / 2
+
+      const startY = itemOffsetTop + itemHeight / 2 - viewportCenter -100
+
+      currentY.current = startY
+      targetY.current = startY
     }
     measure()
     window.addEventListener("resize", measure)
