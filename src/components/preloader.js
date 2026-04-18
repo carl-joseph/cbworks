@@ -7,8 +7,8 @@ export default function Preloader() {
     tl.to('.preloader .word', { duration:3, opacity: 1, y: 0, stagger: 0.1, ease: "power2.out"})
     tl.to(".logo-wrapper", { top: 0, duration: 1.15, ease: "power3.inOut"}, '-=1')
     tl.to(".preloader .title", {  duration: .5, opacity:0}, '-=.5')
-    tl.to(".preloader", { opacity: 0, duration: 0.5, ease: "power2.out", pointerEvents: "none"})
-    tl.fromTo(".project--feed-viewport",{y:80}, { y: 0, duration:1, ease: "power2.out"}, '-=.45')
+    tl.to(".preloader", { opacity: 0, duration: 0.65, pointerEvents: "none"})
+    tl.fromTo(".project--feed-viewport",{y:70}, { y: 0, duration:1.75 }, '-=.75')
   }, [])
 
   const text = `A web development practice, led by Carl Beaverson. Partnering with leading designers and agencies to produce outstanding websites.`

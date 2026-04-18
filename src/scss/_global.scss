@@ -90,6 +90,10 @@ a {
   gap: 40px;
 }
 
+.row-150 {
+  grid-row-gap: 150px;
+}
+
 /* ------------ Margin Styles ------------ */
 
 .m0 {
@@ -187,7 +191,7 @@ div.bg-image,
 
 .ratio-1-1 {
   width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: 1/1;
 }
 
 .ratio-1-2 {
