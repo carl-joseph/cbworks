@@ -37,7 +37,7 @@ export default function ProjectFeed({ projects }) {
       const itemHeight = item.offsetHeight
       const viewportCenter = window.innerHeight / 2
 
-      const startY = itemOffsetTop + itemHeight / 2 - viewportCenter -100
+      const startY = itemOffsetTop + itemHeight / 2 - viewportCenter
 
       currentY.current = startY
       targetY.current = startY
