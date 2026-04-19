@@ -34,6 +34,10 @@ a {
   filter:brightness(0.8);
 }
 
+.black {
+  color:#000;
+}
+
 /* ------------ Grid Styles ------------ */
 
 .grid {
@@ -77,6 +81,10 @@ a {
 }
 
 /* ------------ Gap Styles ------------ */
+
+.gap-5 {
+  gap: 5px;
+}
 
 .gap-10 {
   gap: 10px;
@@ -216,6 +224,10 @@ div.bg-image,
 
 .w-50 {
   width: 50%;
+}
+
+.w-80 {
+  width: 80%;
 }
 
 .w-100 {

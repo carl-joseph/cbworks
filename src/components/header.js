@@ -8,9 +8,11 @@ export default function Header({ siteTitle }) {
         <Link className='link' to='/'>
           <div className='logo--main'/>
         </Link>
-        <p>Information</p>
-        <p>Project Enquiry</p>
-        <p>Contact</p>
+        <div className='flex gap-20'>
+          <p>Information</p>
+          <Link to='/projects'>Work</Link>
+          <p>Enquiry</p>
+        </div>
       </div>
     </header>
   )

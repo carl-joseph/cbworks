@@ -37,6 +37,9 @@ export const query = graphql`
             background {
               gatsbyImageData
             }
+            description
+            designCredit
+            year
           }
         }
       }
